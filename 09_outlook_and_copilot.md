@@ -2,7 +2,7 @@
 
 ## Lesson 68 Fundamentals
 
-> [! Note]
+> [!Note]
 > I used [Outlook online](https://outlook.live.com/mail/0/?ui=en-US&rs=US&auth=1) to access Copilot. Couldn't access via desktop version.
 
 You should see _Coach_ and _Draft_ options in the CP menu.
