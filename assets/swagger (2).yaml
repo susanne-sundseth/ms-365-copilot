@@ -1,0 +1,45 @@
+swagger: "2.0"
+
+# Document metadata
+info:
+  version: "0.1.0"
+  title: Meme Meister
+  description: API to create memes
+  
+# URL data
+host: dev.mememeister.com
+basePath: /v1
+schemes:
+  - https
+consumes:
+  - application/json
+produces:  
+  - application/json
+  
+# Endpoints
+paths:
+  /meme:
+    post:
+      operationID: createMeme
+      description: Create a meme.
+      # Query parameters
+      parameters:
+        # Top caption
+        - name: topCaption
+          in: query
+          required: true
+          type: string
+          description: Top caption on meme
+        # Bottom caption
+        - name: bottomCaption
+          in: query
+          required: true
+          type: string
+          description: Bottom caption on meme  
+        
+      
+  
+  
+
+  
+  
